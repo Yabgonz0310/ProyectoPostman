@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Newman" tests="5" time="1.881">
+  <testsuite name="Peticion1" id="6fcb8dd1-c675-414e-8ba3-0c0e37364a83" timestamp="2025-06-30T00:53:45.436Z" tests="1" failures="0" errors="0" time="0.926">
+    <testcase name="Status code is 200" time="0.926" classname="Peticion1"/>
+  </testsuite>
+  <testsuite name="Peticion2" id="581bf817-c6d5-4ba3-8530-cd8cbe4af9eb" timestamp="2025-06-30T00:53:45.436Z" tests="1" failures="0" errors="0" time="0.224">
+    <testcase name="Response time is less than 200ms" time="0.224" classname="Peticion2"/>
+  </testsuite>
+  <testsuite name="Peticion3" id="b1ed9cf6-4f14-4828-b80b-1063f73e1efa" timestamp="2025-06-30T00:53:45.436Z" tests="1" failures="1" errors="0" time="0.225">
+    <testcase name="Status code is 200" time="0.225" classname="Peticion3">
+      <failure type="AssertionFailure" message="expected response to have status code 201 but got 200">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 0f504ff6-ca60-4163-9bae-37fa6805a32b.]]>
+        <![CDATA[Collection name: Newman.]]>
+        <![CDATA[Request name: Peticion3.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 201 but got 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 201 but got 200
+   at Object.eval sandbox-script.js:1:3).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Peticion4" id="f1f4a01c-6e10-4263-a159-558de3655bc8" timestamp="2025-06-30T00:53:45.436Z" tests="1" failures="0" errors="0" time="0.277">
+    <testcase name="Status code is 200" time="0.277" classname="Peticion4"/>
+  </testsuite>
+  <testsuite name="Peticion5" id="75d63513-55fd-4cd1-a60c-5ca7fa960990" timestamp="2025-06-30T00:53:45.436Z" tests="1" failures="0" errors="0" time="0.229">
+    <testcase name="Response time is less than 200ms" time="0.229" classname="Peticion5"/>
+  </testsuite>
+</testsuites>
